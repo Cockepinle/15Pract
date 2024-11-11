@@ -1,0 +1,10 @@
+<resources>
+    <style name="MyLabelTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#FFBB86FC</item> <!-- Цвет фона заголовка -->
+        <item name="android:titleTextStyle">@style/MyLabelTitleText</item>
+    </style>
+
+    <style name="MyLabelTitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">#FFFFFF</item> <!-- Цвет текста заголовка -->
+    </style>
+</resources>
